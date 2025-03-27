@@ -20,5 +20,9 @@ t = [[1,2],[3],[4,5,6]]
 
 print(sum(sum(t, [])))
                
-#Exercicio 5
-               
+#Exercicio 6
+y = [1,2,3,4]
+y.pop(-1)
+y.pop(0)
+print(y)
+
