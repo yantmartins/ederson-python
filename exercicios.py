@@ -26,3 +26,15 @@ y.pop(-1)
 y.pop(0)
 print(y)
 
+#Exercicio 7
+country = ["Alemanha", "Itália", "Japão"]
+country.append("Brasil")
+print(country)
+country.extend(["Canadá","Estados Unidos","México"])
+print(country)
+country.extend(["Argentina","Bolívia","Chile","Colômbia","Equador","Guiana","Paraguai","Peru","Suriname","Uruguai","Venezuela"])
+print(country)
+country.extend(["Belize","Costa Rica","El Salvador","Guatemala","Honduras","Nicarágua","Panamá"])
+print(country)
+country.extend(["Ottawa","Washington","Mexico City","Belmopan","San Jose","San Salvador","Guatemala City","Tegucigalpa","Manágua","Panama City","Buenos Aires","Sucre","Brasília","Santiago","Bogotá","Quito","Georgetown","Assunção","Lima","Paramaribo","Montevideo","Caracas"])
+print(country)
