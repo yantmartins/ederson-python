@@ -1,0 +1,10 @@
+f = open("explicacoes/file.txt","r")
+print(f.read())
+f.close()
+
+z = open("explicacoes/file.txt", "a", encoding="utf-8")
+x = input("Digite seu nome: ")
+z.write(x)
+z = open("file.txt","r")
+print(z.read())
+z.close()
